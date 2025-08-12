@@ -70,3 +70,7 @@
 [19:18:06] [Server thread/INFO]: mathias6222 issued server command: /gamerule keepInventory false
 [19:18:06] [Server thread/INFO]: [mathias6222: Gamerule keepInventory is now set to: false]
 [19:42:47] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> 152 100
+[19:55:57] [Server thread/INFO]: mathias6222 issued server command: /give mathias6222 tnt 2
+[19:55:57] [Server thread/INFO]: [mathias6222: Gave 2 [TNT] to mathias6222]
+[19:57:09] [Server thread/INFO]: mathias6222 issued server command: /give mathias6222 tnt 2
+[19:57:09] [Server thread/INFO]: [mathias6222: Gave 2 [TNT] to mathias6222]
