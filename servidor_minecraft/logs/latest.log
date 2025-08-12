@@ -63,3 +63,9 @@
 [19:07:58] [Server thread/INFO]: mathias6222 joined the game
 [19:07:58] [Server thread/INFO]: mathias6222[/127.145.153.131:57019] logged in with entity id 59131 at ([world]-795.3356125955648, 87.0, -143.71166119912473)
 [19:12:24] [Server thread/INFO]: Made mathias6222 a server operator
+[19:16:35] [Server thread/INFO]: mathias6222 issued server command: /gamerule keepInventory false
+[19:16:35] [Server thread/INFO]: [mathias6222: Gamerule keepInventory is now set to: false]
+[19:17:19] [Server thread/INFO]: mathias6222 issued server command: /gamerule keepInventory false
+[19:17:19] [Server thread/INFO]: [mathias6222: Gamerule keepInventory is now set to: false]
+[19:18:06] [Server thread/INFO]: mathias6222 issued server command: /gamerule keepInventory false
+[19:18:06] [Server thread/INFO]: [mathias6222: Gamerule keepInventory is now set to: false]
