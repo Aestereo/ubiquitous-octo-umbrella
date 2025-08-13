@@ -1,86 +1,27 @@
-[23:18:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:18:32] [ServerMain/INFO]: Loaded 7 recipes
-[23:18:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[23:18:32] [Server thread/INFO]: Loading properties
-[23:18:32] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[23:18:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:18:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:18:33] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[23:18:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[23:18:34] [Server thread/INFO]: Default game type: SURVIVAL
-[23:18:34] [Server thread/INFO]: Generating keypair
-[23:18:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:18:34] [Server thread/INFO]: Using epoll channel type
-[23:18:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:18:34] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[23:18:35] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[23:18:35] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[23:18:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[23:18:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[23:18:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[23:18:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[23:18:36] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[23:18:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[23:18:36] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[23:18:37] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[23:18:37] [Server thread/INFO]: [floodgate] Took 707ms to boot Floodgate
-[23:18:37] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9
-[23:18:37] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[23:18:37] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[23:18:37] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[23:18:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:18:37] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9
-[23:18:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:18:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:18:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:18:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:18:37] [Server thread/INFO]: Preparing level "world"
-[23:18:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:18:38] [Server thread/INFO]: Time elapsed: 353 ms
-[23:18:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:18:38] [Server thread/INFO]: Time elapsed: 70 ms
-[23:18:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:18:38] [Server thread/INFO]: Time elapsed: 35 ms
-[23:18:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[23:18:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[23:18:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[23:18:39] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[23:18:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[23:18:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[23:18:43] [Server thread/INFO]: [Geyser-Spigot] 
-[23:18:43] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
-[23:18:43] [Server thread/INFO]: [Geyser-Spigot] 
-[23:18:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[23:18:46] [GeyserServer-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[23:18:46] [Server thread/INFO]: [Geyser-Spigot] Done (3.499s)! Run /geyser help for help!
-[23:18:46] [Server thread/INFO]: Running delayed init tasks
-[23:18:46] [Server thread/INFO]: Done (14.131s)! For help, type "help"
-[23:18:46] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[23:18:46] [Server thread/INFO]: Timings Reset
-[23:24:03] [User Authenticator #0/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
-[23:24:03] [Server thread/INFO]: mathias6222 joined the game
-[23:24:03] [Server thread/INFO]: mathias6222[/127.145.153.131:58391] logged in with entity id 213911 at ([world_nether]-84.70955415138837, 65.0, 14.663944528452017)
-[23:47:57] [Server thread/INFO]: mathias6222 lost connection: Disconnected
-[23:47:57] [Server thread/INFO]: mathias6222 left the game
-[23:48:52] [User Authenticator #1/INFO]: UUID of player Hito_o_Aisuru is 74bbb66d-1a34-332d-9438-16a0418a9b50
-[23:48:53] [Server thread/INFO]: Hito_o_Aisuru joined the game
-[23:48:53] [Server thread/INFO]: Hito_o_Aisuru[/127.71.102.74:37385] logged in with entity id 1238580 at ([world]-646.3768882615947, 66.0, -162.8523903219616)
-[23:49:31] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> D:
-[23:54:08] [User Authenticator #2/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
-[23:54:08] [Server thread/INFO]: mathias6222 joined the game
-[23:54:08] [Server thread/INFO]: mathias6222[/127.145.153.131:55811] logged in with entity id 1454946 at ([world]-611.6999999880791, 63.0, 22.24132831367988)
-[23:55:05] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> holaaa :D
-[23:55:11] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> hola mi amor!! :D
-[23:55:23] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> bienvenido a la revolución en contra de aternos >:D
-[23:55:30] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> bienvenida*
-[23:55:32] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> ñamñam
-[23:56:36] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> ay
-[23:56:54] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> la cosa esk el server está antes de que yo te diera mis pescaditos
-[23:56:54] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> andaba destruyendo el suelo xD
-[23:56:58] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> epa
-[23:56:59] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> sin querer
-[23:58:41] [Async Chat Thread - #6/INFO]: [Not Secure] <Hito_o_Aisuru> tengo 11 pescados
-[23:58:49] [Async Chat Thread - #7/INFO]: [Not Secure] <mathias6222> epa
-[23:58:58] [Async Chat Thread - #7/INFO]: [Not Secure] <Hito_o_Aisuru> 5 bacalaos, 4 salmones, un pez globo y un pez payaso
+[00:03:48] [Server thread/WARN]: Hito_o_Aisuru moved too quickly! 9.893133488025228,0.0,2.6447640371810053
+[00:03:55] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> jaja
+[00:04:03] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> se movió muy rápido xD
+[00:04:08] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> salió en la consola
+[00:04:12] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> ?
+[00:04:30] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> a cierto
+[00:04:41] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> ya no hay keepinventory bro
+[00:05:16] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> el Barrios me ganó y le quité eso xD
+[00:05:33] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> ñamñam
+[00:05:37] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> ay
+[00:05:42] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> ta bien
+[00:05:56] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> o mi pollito quisiera aún mantener inventario? :3
+[00:06:01] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> a cierto
+[00:06:09] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> me falta el skinrestorer xD
+[00:06:21] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> ñam :D
+[00:06:23] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> tonces poqué puedo ver a mi skin
+[00:06:30] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> por tlauncher creo
+[00:07:17] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> ññam
+[00:07:32] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> activo el mantener inventario pollo?
+[00:07:45] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> si tu quieres mi cielo
+[00:07:48] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> la verdad no me molesta
+[00:08:10] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> pero qué preferiría más mi amorsito? :3
+[00:08:40] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> ee
+[00:08:45] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> la verdad no sé-
+[00:08:56] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> lo único que haría es intentar no morir ya
+[00:08:59] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> y ya*
+[00:09:03] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> y no explorar tanto
