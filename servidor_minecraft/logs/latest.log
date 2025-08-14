@@ -1,254 +1,64 @@
-[14:51:18] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:51:20] [ServerMain/INFO]: Loaded 7 recipes
-[14:51:20] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:51:20] [Server thread/INFO]: Loading properties
-[14:51:20] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[14:51:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:51:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:51:21] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:56:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:56:06] [ServerMain/INFO]: Loaded 7 recipes
+[18:56:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:56:07] [Server thread/INFO]: Loading properties
+[18:56:07] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[18:56:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:56:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:56:08] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:51:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[14:51:22] [Server thread/INFO]: Default game type: SURVIVAL
-[14:51:22] [Server thread/INFO]: Generating keypair
-[14:51:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:51:22] [Server thread/INFO]: Using epoll channel type
-[14:51:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:51:22] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[14:51:22] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[14:51:22] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[14:51:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:51:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:51:23] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:51:23] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:51:25] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[14:51:25] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[14:51:25] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[14:51:26] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[14:51:26] [Server thread/INFO]: [floodgate] Took 893ms to boot Floodgate
-[14:51:26] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9
-[14:51:26] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[14:51:26] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[14:51:26] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[14:51:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:51:26] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9
-[14:51:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:51:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:51:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:51:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:51:26] [Server thread/INFO]: Preparing level "world"
-[14:51:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:51:27] [Server thread/INFO]: Time elapsed: 276 ms
-[14:51:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:51:27] [Server thread/INFO]: Time elapsed: 66 ms
-[14:51:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:51:27] [Server thread/INFO]: Time elapsed: 43 ms
-[14:51:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[14:51:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[14:51:28] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[14:51:28] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[14:51:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[14:51:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:51:31] [Server thread/INFO]: [Geyser-Spigot] 
-[14:51:31] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
-[14:51:31] [Server thread/INFO]: [Geyser-Spigot] 
-[14:51:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:51:35] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[14:51:35] [Server thread/INFO]: [Geyser-Spigot] Done (4.749s)! Run /geyser help for help!
-[14:51:36] [Server thread/INFO]: Running delayed init tasks
-[14:51:36] [Server thread/INFO]: Done (15.377s)! For help, type "help"
-[14:51:36] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[14:51:36] [Server thread/INFO]: Timings Reset
-[14:55:34] [User Authenticator #0/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
-[14:55:35] [Server thread/INFO]: mathias6222 joined the game
-[14:55:35] [Server thread/INFO]: mathias6222[/127.145.153.131:50745] logged in with entity id 164194 at ([world]-654.4174065667895, 66.0, -177.50012757838132)
-[14:57:57] [Server thread/INFO]: mathias6222 lost connection: Disconnected
-[14:57:57] [Server thread/INFO]: mathias6222 left the game
-[15:00:16] [User Authenticator #1/INFO]: UUID of player Hito_o_Aisuru is 74bbb66d-1a34-332d-9438-16a0418a9b50
-[15:00:16] [Server thread/INFO]: Hito_o_Aisuru joined the game
-[15:00:16] [Server thread/INFO]: Hito_o_Aisuru[/127.71.102.74:39307] logged in with entity id 357927 at ([world]-658.6267019587024, 66.0, -178.85999871555177)
-[15:00:31] [User Authenticator #1/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
-[15:00:31] [Server thread/INFO]: mathias6222 joined the game
-[15:00:31] [Server thread/INFO]: mathias6222[/127.145.153.131:49033] logged in with entity id 368467 at ([world]-758.3000000119209, 211.0, 38.355346879385905)
-[15:00:33] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> buenos días
-[15:00:49] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> buenas días mi pollito :3
-[15:01:03] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> me caí XD
-[15:01:06] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> acá anda el Barrios peleando por entrar xD
-[15:01:07] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> buenos días mi cielo :3
-[15:01:07] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> uy
-[15:01:09] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> cómo estás? :3
-[15:01:47] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> bien mi pollito :3
-[15:02:07] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> aquí viendo tiktok en el celular y viendo como el pana pelea xD
-[15:02:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Hito_o_Aisuru> dónde andais?
-[15:02:10] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> epa
-[15:02:10] [Async Chat Thread - #0/INFO]: [Not Secure] <Hito_o_Aisuru> XD
-[15:02:16] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> acá abajo bro
-[15:02:18] [Server thread/INFO]: Hito_o_Aisuru fell from a high place
-[15:02:21] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> .
-[15:02:23] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> xD
-[15:02:24] [Async Chat Thread - #0/INFO]: [Not Secure] <Hito_o_Aisuru> XD
-[15:02:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Hito_o_Aisuru> mi xp dijo: no mami
-[15:02:49] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> hay que mirar pa 'lante cuando vaya a hacer eso bro
-[15:03:03] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> no pa abajo como antisocial
-[15:03:07] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> yo y el piso forever
-[15:03:51] [Async Chat Thread - #0/INFO]: [Not Secure] <Hito_o_Aisuru> ee :D
-[15:03:55] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> :o
-[15:03:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Hito_o_Aisuru> pesqué botas
-[15:04:01] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> epa :p
-[15:04:05] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> (y se me rompió la caña)
-[15:04:07] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> que se las ponga :D
-[15:04:09] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> ee :D
-[15:05:02] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> le he enviado más videos al gatomeow xD
-[15:05:04] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> na
-[15:05:12] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> no me responde la tipa 3:
-[15:05:13] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> ñam
-[15:05:23] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> a gatomeow le manda lo lindo y a hito le manda lo balatrero
-[15:05:37] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> shi
-[15:05:58] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> aunque el último si está pa enviarselo a hito la verda
-[15:06:44] [Async Chat Thread - #2/INFO]: [Not Secure] <Hito_o_Aisuru> tocó ir por arañas
-[15:07:11] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> :o
-[15:07:14] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> pa qué?
-[15:08:00] [Async Chat Thread - #2/INFO]: [Not Secure] <Hito_o_Aisuru> hilo :fire:
-[15:08:14] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> yo tengo creo
-[15:08:17] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> quieres?
-[15:08:19] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> ee
-[15:08:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Hito_o_Aisuru> weno :3
-[15:08:28] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> gracias mi amor!! :D
-[15:08:32] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> ñamñam
-[15:08:47] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> si mi pollito me da cariñitos mañana se las doy
-[15:08:49] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> sí? :3
-[15:09:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Hito_o_Aisuru> epa
-[15:09:20] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> pwro luego dice que e' musho
-[15:09:30] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> ay
-[15:09:43] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> entonces no le digo que es mucho :3
-[15:09:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Hito_o_Aisuru> yippie :D
-[15:10:04] [Async Chat Thread - #1/INFO]: [Not Secure] <Hito_o_Aisuru> iwal un pvp con arañas no me va mal
-[15:10:24] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> me le voa robar una shulker jaja
-[15:11:31] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> ya tengo para dos cañas
-[15:11:48] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> listo
-[15:12:03] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> una shulker llena de hilo pa que no tenga más problemas
-[15:12:04] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> ñam
-[15:12:07] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> epa
-[15:12:15] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> y el pescado
-[15:12:27] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> ahí no había na'
-[15:12:45] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> waa
-[15:12:48] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> ta bien
-[15:12:51] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> ñam
-[15:12:52] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> gracias mi amor :3
-[15:13:04] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> ya tengo cariñitos asegurados mañana? :3
-[15:13:07] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> chíi
-[15:13:08] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> :D
-[15:13:11] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> yay :D
-[15:13:32] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> si quieres te regalo todos los peces globo que pesque
-[15:13:41] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> ee :D
-[15:13:54] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> (los quiero utilizar para envenenarme xD)
-[15:14:13] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> (ohno)
-[15:16:08] [Async Chat Thread - #6/INFO]: [Not Secure] <Hito_o_Aisuru> cuáles son tus planes con barrios mi amor?
-[15:16:23] [Async Chat Thread - #7/INFO]: [Not Secure] <mathias6222> esclavizarlo
-[15:16:35] [Async Chat Thread - #6/INFO]: [Not Secure] <mathias6222> pero de manera bonita
-[15:16:46] [Async Chat Thread - #7/INFO]: [Not Secure] <Hito_o_Aisuru> uy
-[15:17:34] [Async Chat Thread - #6/INFO]: [Not Secure] <Hito_o_Aisuru> tengo 4 peces globo
-[15:17:50] [Async Chat Thread - #7/INFO]: [Not Secure] <mathias6222> epa
-[15:18:16] [Async Chat Thread - #6/INFO]: [Not Secure] <mathias6222> ñam :D
-[15:25:48] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> muajaja estoy pescando desde el cielo
-[15:25:54] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> xD
-[15:26:31] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> epa
-[15:26:43] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> aterrizaje de avión:
-[15:27:18] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> pagó un man para que le baile mientras
-[15:27:19] [Async Chat Thread - #9/INFO]: [Not Secure] <mathias6222> xD
-[15:27:27] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> cómo se llama?
-[15:27:32] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> qué cosa
-[15:27:41] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> el verde
-[15:27:44] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> a
-[15:27:50] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> se llama franciszo
-[15:29:06] [Async Chat Thread - #10/INFO]: [Not Secure] <mathias6222> hola
-[15:29:16] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> ñe
-[15:29:27] [Async Chat Thread - #10/INFO]: [Not Secure] <mathias6222> ñamñam
-[15:29:36] [Async Chat Thread - #11/INFO]: [Not Secure] <mathias6222> vuelvo a sentarme en la iglesia
-[15:29:39] [Async Chat Thread - #10/INFO]: [Not Secure] <Hito_o_Aisuru> un nenufar :D
-[15:29:57] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> y eso
-[15:30:11] [Async Chat Thread - #11/INFO]: [Not Secure] <mathias6222> ohh :o
-[15:30:29] [Async Chat Thread - #10/INFO]: [Not Secure] <mathias6222> no sabía que se llamaba nenufar eso xD
-[15:30:38] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> en realidad es nenúfar
-[15:30:39] [Async Chat Thread - #10/INFO]: [Not Secure] <Hito_o_Aisuru> pero ps
-[15:30:40] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> iwal
-[15:31:04] [Async Chat Thread - #10/INFO]: [Not Secure] <Hito_o_Aisuru> y esa armadura
-[15:31:06] [Async Chat Thread - #11/INFO]: [Not Secure] <mathias6222> a
-[15:31:10] [Async Chat Thread - #10/INFO]: [Not Secure] <mathias6222> eEe
-[15:31:12] [Async Chat Thread - #11/INFO]: [Not Secure] <mathias6222> ns
-[15:31:25] [Async Chat Thread - #10/INFO]: [Not Secure] <Hito_o_Aisuru> es la armadura que creo que es?
-[15:31:25] [Async Chat Thread - #11/INFO]: [Not Secure] <mathias6222> en teoría debería ser de netherita xD
-[15:31:33] [Async Chat Thread - #10/INFO]: [Not Secure] <Hito_o_Aisuru> aaAa
-[15:31:36] [Async Chat Thread - #11/INFO]: [Not Secure] <mathias6222> cuál?
-[15:31:38] [Async Chat Thread - #10/INFO]: [Not Secure] <Hito_o_Aisuru> m
-[15:31:47] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> una ilegal que ya no se puede hacer
-[15:31:53] [Async Chat Thread - #10/INFO]: [Not Secure] <mathias6222> a no
-[15:31:55] [Async Chat Thread - #10/INFO]: [Not Secure] <mathias6222> xD
-[15:31:56] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> que en anteriores versiones sí se podía
-[15:32:07] [Async Chat Thread - #10/INFO]: [Not Secure] <Hito_o_Aisuru> y ahora sólo se puede con la armadura completa
-[15:32:12] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> y no en solo una parte
-[15:33:17] [Async Chat Thread - #12/INFO]: [Not Secure] <mathias6222> ñamñam
-[15:33:36] [Async Chat Thread - #12/INFO]: [Not Secure] <mathias6222> que se tire un discurso como cura dice
-[15:33:45] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> aquí
-[15:33:48] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> ahí falta la biblia
-[15:33:57] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> no hay presupuesto
-[15:34:05] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> está como para escribir el génesis completo en un libro
-[15:34:55] [Async Chat Thread - #13/INFO]: [Not Secure] <Hito_o_Aisuru> ee
-[15:35:20] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> no tengo el sacramento de órden sacerdotal para dar esto
-[15:35:29] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> na
-[15:35:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> + que se necesitan como 8 años de estudio para ser padre de iglesia
-[15:35:35] [Async Chat Thread - #13/INFO]: [Not Secure] <Hito_o_Aisuru> (y ser hombre)
-[15:36:23] [Async Chat Thread - #12/INFO]: [Not Secure] <mathias6222> y?
-[15:36:41] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> aquí somos nosotros los dioses
-[15:36:44] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> que no sé exáctamente qué decir-
-[15:36:45] [Async Chat Thread - #12/INFO]: [Not Secure] <mathias6222> nosotros creamos
-[15:36:52] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> lo ya creado
-[15:37:01] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> somos no dioses, semidioses
-[15:37:20] [Async Chat Thread - #12/INFO]: [Not Secure] <mathias6222> aunque realmente gracias a nosotros este mundo existe
-[15:37:30] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> esto es, porque nosotros somos
-[15:37:35] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> gracias a vos xD
-[15:37:47] [Async Chat Thread - #13/INFO]: [Not Secure] <mathias6222> sin nosotros, solo sería una posibilidad
-[15:37:49] [Async Chat Thread - #12/INFO]: [Not Secure] <mathias6222> ahora es
-[15:41:24] [Async Chat Thread - #14/INFO]: [Not Secure] <Hito_o_Aisuru> nam
-[15:41:34] [Async Chat Thread - #14/INFO]: [Not Secure] <mathias6222> ñam
-[15:42:49] [Async Chat Thread - #16/INFO]: [Not Secure] <Hito_o_Aisuru> main c00lkidd
-[15:43:09] [Async Chat Thread - #17/INFO]: [Not Secure] <mathias6222> ?
-[15:43:17] [Async Chat Thread - #17/INFO]: [Not Secure] <Hito_o_Aisuru> esquizofrenias mías
-[15:43:20] [Async Chat Thread - #16/INFO]: [Not Secure] <Hito_o_Aisuru> ñom
-[15:43:49] [Async Chat Thread - #17/INFO]: [Not Secure] <mathias6222> ññam
-[15:44:00] [Async Chat Thread - #16/INFO]: [Not Secure] <mathias6222> qué hacemos con todos estos terrenos? xD
-[15:44:04] [Async Chat Thread - #17/INFO]: [Not Secure] <mathias6222> ni yo sé
-[15:44:21] [Async Chat Thread - #16/INFO]: [Not Secure] <Hito_o_Aisuru> yo pensaba que ibas a expandir tu imperio técnico
-[15:44:39] [Async Chat Thread - #17/INFO]: [Not Secure] <mathias6222> ePa
-[15:44:58] [Async Chat Thread - #16/INFO]: [Not Secure] <mathias6222> que quiere que haga una granja de caña de azucar inmnsa dice
-[15:45:01] [Async Chat Thread - #16/INFO]: [Not Secure] <mathias6222> vale
-[15:46:08] [Async Chat Thread - #18/INFO]: [Not Secure] <mathias6222> se iba*
-[15:46:11] [Async Chat Thread - #19/INFO]: [Not Secure] <mathias6222> ññam
-[15:46:38] [Async Chat Thread - #18/INFO]: [Not Secure] <Hito_o_Aisuru> oe y mis materiales
-[15:46:46] [Async Chat Thread - #19/INFO]: [Not Secure] <mathias6222> ?
-[15:46:51] [Async Chat Thread - #18/INFO]: [Not Secure] <mathias6222> se los robo rafa
-[15:46:56] [Async Chat Thread - #18/INFO]: [Not Secure] <mathias6222> (ni ha entrado)
-[15:48:08] [Async Chat Thread - #20/INFO]: [Not Secure] <Hito_o_Aisuru> nam
-[15:48:38] [Async Chat Thread - #21/INFO]: [Not Secure] <mathias6222> (ese huevo quiere sal~)
-[15:48:40] [Async Chat Thread - #20/INFO]: [Not Secure] <mathias6222> xD
-[15:48:50] [Async Chat Thread - #22/INFO]: [Not Secure] <mathias6222> (ese vino fermentó~)
-[15:49:01] [Async Chat Thread - #20/INFO]: [Not Secure] <mathias6222> (ese queso ya cuajó~)
-[15:49:03] [Async Chat Thread - #22/INFO]: [Not Secure] <mathias6222> ññam
-[15:49:10] [Async Chat Thread - #20/INFO]: [Not Secure] <mathias6222> mi fyp está del divlo
-[15:50:04] [Async Chat Thread - #22/INFO]: [Not Secure] <mathias6222> ya tengo tutoriales pa la granja
-[15:50:09] [Async Chat Thread - #20/INFO]: [Not Secure] <mathias6222> quiero hacer dos >:D
-[15:50:21] [Async Chat Thread - #22/INFO]: [Not Secure] <Hito_o_Aisuru> epa
-[15:50:32] [Async Chat Thread - #20/INFO]: [Not Secure] <mathias6222> (por qué tengo dos cañas de pescar-)
-[15:50:45] [Async Chat Thread - #22/INFO]: [Not Secure] <Hito_o_Aisuru> yo te las di
-[15:50:55] [Async Chat Thread - #20/INFO]: [Not Secure] <Hito_o_Aisuru> una araña me quiere matar
-[15:51:00] [Async Chat Thread - #22/INFO]: [Not Secure] <mathias6222> araña?
-[15:51:05] [Async Chat Thread - #20/INFO]: [Not Secure] <mathias6222> acá? D:
-[15:51:06] [Async Chat Thread - #22/INFO]: [Not Secure] <Hito_o_Aisuru> sí
-[15:51:09] [Async Chat Thread - #20/INFO]: [Not Secure] <Hito_o_Aisuru> sí
-[15:51:12] [Async Chat Thread - #23/INFO]: [Not Secure] <Hito_o_Aisuru> y tiene efectos
-[15:51:33] [Async Chat Thread - #20/INFO]: [Not Secure] <Hito_o_Aisuru> esa de allá
-[15:51:37] [Async Chat Thread - #23/INFO]: [Not Secure] <mathias6222> por donde anda? xD
-[15:51:42] [Async Chat Thread - #20/INFO]: [Not Secure] <Hito_o_Aisuru> cerca a mi altar pedorro
-[15:51:55] [Async Chat Thread - #23/INFO]: [Not Secure] <mathias6222> xD
-[15:52:07] [Async Chat Thread - #23/INFO]: [Not Secure] <Hito_o_Aisuru> qué tenía esa araña-?
-[15:52:12] [Async Chat Thread - #24/INFO]: [Not Secure] <mathias6222> ese 3x3 lo hizo uste?
+[18:56:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:56:08] [Server thread/INFO]: Default game type: SURVIVAL
+[18:56:08] [Server thread/INFO]: Generating keypair
+[18:56:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:56:08] [Server thread/INFO]: Using epoll channel type
+[18:56:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:56:08] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[18:56:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[18:56:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[18:56:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:56:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:56:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:56:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:56:10] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[18:56:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[18:56:10] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[18:56:11] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[18:56:11] [Server thread/INFO]: [floodgate] Took 441ms to boot Floodgate
+[18:56:11] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9
+[18:56:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[18:56:11] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[18:56:11] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[18:56:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:56:11] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9
+[18:56:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:56:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:56:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:56:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:56:11] [Server thread/INFO]: Preparing level "world"
+[18:56:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:56:12] [Server thread/INFO]: Time elapsed: 202 ms
+[18:56:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:56:12] [Server thread/INFO]: Time elapsed: 66 ms
+[18:56:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:56:12] [Server thread/INFO]: Time elapsed: 59 ms
+[18:56:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[18:56:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[18:56:12] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[18:56:12] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[18:56:13] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[18:56:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:56:14] [Server thread/INFO]: [Geyser-Spigot] 
+[18:56:14] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
+[18:56:14] [Server thread/INFO]: [Geyser-Spigot] 
+[18:56:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:56:19] [GeyserServer-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[18:56:19] [Server thread/INFO]: [Geyser-Spigot] Done (4.536s)! Run /geyser help for help!
+[18:56:19] [Server thread/INFO]: Running delayed init tasks
+[18:56:19] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:56:19] [Server thread/INFO]: Done (12.298s)! For help, type "help"
+[18:56:19] [Server thread/INFO]: Timings Reset
+[19:00:24] [User Authenticator #0/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
+[19:00:24] [Server thread/INFO]: mathias6222 joined the game
+[19:00:24] [Server thread/INFO]: mathias6222[/127.145.153.131:53147] logged in with entity id 170372 at ([world]-694.390864311995, 63.0, 31.69999998807907)
