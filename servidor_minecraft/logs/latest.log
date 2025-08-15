@@ -1,101 +1,64 @@
-[19:19:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:19:06] [ServerMain/INFO]: Loaded 7 recipes
-[19:19:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:19:07] [Server thread/INFO]: Loading properties
-[19:19:07] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[19:19:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:19:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:19:08] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:50:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:50:59] [ServerMain/INFO]: Loaded 7 recipes
+[20:50:59] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:50:59] [Server thread/INFO]: Loading properties
+[20:50:59] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[20:51:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:51:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:51:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:19:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[19:19:08] [Server thread/INFO]: Default game type: SURVIVAL
-[19:19:08] [Server thread/INFO]: Generating keypair
-[19:19:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:19:08] [Server thread/INFO]: Using epoll channel type
-[19:19:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:19:08] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[19:19:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[19:19:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[19:19:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:19:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:19:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:19:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:19:10] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[19:19:11] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[19:19:11] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[19:19:11] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[19:19:11] [Server thread/INFO]: [floodgate] Took 533ms to boot Floodgate
-[19:19:11] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9
-[19:19:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[19:19:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[19:19:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[19:19:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:19:12] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9
-[19:19:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:19:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:19:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:19:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:19:12] [Server thread/INFO]: Preparing level "world"
-[19:19:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:19:12] [Server thread/INFO]: Time elapsed: 219 ms
-[19:19:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:19:12] [Server thread/INFO]: Time elapsed: 46 ms
-[19:19:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:19:12] [Server thread/INFO]: Time elapsed: 83 ms
-[19:19:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[19:19:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[19:19:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[19:19:13] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[19:19:13] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[19:19:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:19:15] [Server thread/INFO]: [Geyser-Spigot] 
-[19:19:15] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
-[19:19:15] [Server thread/INFO]: [Geyser-Spigot] 
-[19:19:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:19:20] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[19:19:20] [Server thread/INFO]: [Geyser-Spigot] Done (4.832s)! Run /geyser help for help!
-[19:19:20] [Server thread/INFO]: Running delayed init tasks
-[19:19:20] [Server thread/INFO]: Done (13.225s)! For help, type "help"
-[19:19:20] [Server thread/INFO]: Timings Reset
-[19:19:20] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[19:19:30] [User Authenticator #0/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
-[19:19:30] [Server thread/INFO]: mathias6222 joined the game
-[19:19:30] [Server thread/INFO]: mathias6222[/127.95.101.181:55577] logged in with entity id 7690 at ([world]-696.6312765264915, 66.0, 14.959808450350783)
-[19:26:35] [Server thread/INFO]: mathias6222 lost connection: Disconnected
-[19:26:35] [Server thread/INFO]: mathias6222 left the game
-[19:26:54] [Server thread/INFO]: Stopping the server
-[19:26:54] [Server thread/INFO]: Stopping server
-[19:26:54] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.3-SNAPSHOT
-[19:26:54] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[19:26:54] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[19:26:54] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.9
-[19:26:54] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[19:26:54] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
-[19:26:54] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
-[19:26:54] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[19:26:54] [Server thread/INFO]: Saving players
-[19:26:54] [WebSocketConnectReadThread-76/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[19:26:54] [Server thread/INFO]: Saving worlds
-[19:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:26:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:26:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:26:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 164 entity chunks, 0 poi chunks in world 'world' in 0.04s
-[19:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:26:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 122 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[19:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:26:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:26:55] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 58 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[19:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:26:55] [Server thread/INFO]: Flushing Chunk IO
-[19:26:55] [Server thread/INFO]: Closing Thread Pool
-[19:26:55] [Server thread/INFO]: Closing Server
+[20:51:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:51:01] [Server thread/INFO]: Default game type: SURVIVAL
+[20:51:01] [Server thread/INFO]: Generating keypair
+[20:51:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:51:01] [Server thread/INFO]: Using epoll channel type
+[20:51:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:51:01] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[20:51:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[20:51:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[20:51:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:51:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:51:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:51:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:51:03] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[20:51:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[20:51:03] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:51:04] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[20:51:04] [Server thread/INFO]: [floodgate] Took 764ms to boot Floodgate
+[20:51:04] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9
+[20:51:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[20:51:04] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:51:04] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:51:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:51:04] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9
+[20:51:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:51:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:51:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:51:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:51:04] [Server thread/INFO]: Preparing level "world"
+[20:51:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:51:05] [Server thread/INFO]: Time elapsed: 298 ms
+[20:51:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:51:05] [Server thread/INFO]: Time elapsed: 50 ms
+[20:51:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:51:05] [Server thread/INFO]: Time elapsed: 44 ms
+[20:51:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[20:51:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[20:51:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[20:51:06] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:51:06] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[20:51:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:51:09] [Server thread/INFO]: [Geyser-Spigot] 
+[20:51:09] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
+[20:51:09] [Server thread/INFO]: [Geyser-Spigot] 
+[20:51:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:51:13] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[20:51:13] [Server thread/INFO]: [Geyser-Spigot] Done (4.134s)! Run /geyser help for help!
+[20:51:13] [Server thread/INFO]: Running delayed init tasks
+[20:51:13] [Server thread/INFO]: Done (13.896s)! For help, type "help"
+[20:51:13] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:51:13] [Server thread/INFO]: Timings Reset
+[20:52:05] [User Authenticator #0/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
+[20:52:05] [Server thread/INFO]: mathias6222 joined the game
+[20:52:05] [Server thread/INFO]: mathias6222[/127.95.101.181:38907] logged in with entity id 36149 at ([world]-730.9782063185531, 66.0, 42.984146586572336)
