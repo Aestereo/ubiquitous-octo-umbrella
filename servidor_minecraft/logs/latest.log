@@ -1,0 +1,251 @@
+[16:13:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:13:31] [ServerMain/INFO]: Loaded 7 recipes
+[16:13:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:13:32] [Server thread/INFO]: Loading properties
+[16:13:32] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[16:13:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:13:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:13:33] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[16:13:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:13:33] [Server thread/INFO]: Default game type: SURVIVAL
+[16:13:33] [Server thread/INFO]: Generating keypair
+[16:13:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:13:33] [Server thread/INFO]: Using epoll channel type
+[16:13:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:13:33] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[16:13:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[16:13:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[16:13:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:13:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:13:35] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:13:35] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:13:36] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[16:13:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[16:13:36] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[16:13:36] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[16:13:36] [Server thread/INFO]: [floodgate] Took 561ms to boot Floodgate
+[16:13:36] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9
+[16:13:36] [Server thread/INFO]: [GravityControl] Loading server plugin GravityControl v2.0.0
+[16:13:36] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[16:13:37] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:13:37] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:13:37] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.1
+[16:13:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:13:37] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9
+[16:13:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.1
+[16:13:38] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[16:13:38] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[16:13:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:13:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:13:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:13:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:13:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:13:39] [Server thread/INFO]: Preparing level "world"
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.1
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ee713cb
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[16:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[16:13:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:13:39] [Server thread/INFO]: Time elapsed: 292 ms
+[16:13:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:13:39] [Server thread/INFO]: Time elapsed: 87 ms
+[16:13:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:13:40] [Server thread/INFO]: Time elapsed: 63 ms
+[16:13:40] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[16:13:40] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[16:13:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[16:13:40] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[16:13:40] [Server thread/INFO]: [GravityControl] Enabling GravityControl v2.0.0
+[16:13:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[16:13:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:13:43] [Server thread/INFO]: [Geyser-Spigot] 
+[16:13:43] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b904 (git-master-ea967a0)
+[16:13:43] [Server thread/INFO]: [Geyser-Spigot] 
+[16:13:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:13:47] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[16:13:47] [Server thread/INFO]: [Geyser-Spigot] Done (4.751s)! Run /geyser help for help!
+[16:13:48] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.131. Download it here: https://geysermc.org/download
+[16:13:48] [Server thread/INFO]: Running delayed init tasks
+[16:13:48] [Server thread/INFO]: Done (15.732s)! For help, type "help"
+[16:13:48] [Server thread/INFO]: Timings Reset
+[16:13:48] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:13:48] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.6.0, you're on: 5.4.2
+[16:13:48] [Craft Scheduler Thread - 2 - GravityControl/INFO]: [GravityControl] Failed to check for updates
+java.net.ConnectException: null
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:955) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at one.eim.gravitycontrol.UpdateChecker.lambda$check$0(UpdateChecker.java:36) ~[GravityControl-2.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.ConnectException
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1065) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:529) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:140) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:98) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:308) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1053) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:933) ~[java.net.http:?]
+	... 8 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
+	at sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:529) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:140) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:98) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:308) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1053) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:933) ~[java.net.http:?]
+	... 8 more
+[16:14:12] [User Authenticator #0/INFO]: UUID of player Hito_o_Aisuru is 74bbb66d-1a34-332d-9438-16a0418a9b50
+[16:14:12] [Server thread/INFO]: Hito_o_Aisuru joined the game
+[16:14:13] [Server thread/INFO]: Hito_o_Aisuru[/127.71.102.74:54485] logged in with entity id 959 at ([world]-769.1331437902531, 65.9375, -156.25343200440358)
+[16:14:22] [User Authenticator #0/INFO]: UUID of player mathias6222 is a8d255f9-a4ae-33b8-9ce6-df889b35d459
+[16:14:22] [Server thread/INFO]: mathias6222 joined the game
+[16:14:22] [Server thread/INFO]: mathias6222[/127.95.101.181:50889] logged in with entity id 1514 at ([world]-635.5, 65.5625, -277.5)
+[16:14:50] [Async Chat Thread - #1/INFO]: [Not Secure] <mathias6222> no falta devolverse al pasado
+[16:14:58] [Async Chat Thread - #0/INFO]: [Not Secure] <mathias6222> xD
+[16:21:27] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> poio
+[16:21:38] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> le ha dicho algo don Gener sobre aquello?
+[16:21:41] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> o doña Nubia
+[16:21:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> sobre qué?
+[16:21:46] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> no
+[16:21:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Hito_o_Aisuru> no me han dicho nada
+[16:21:53] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> yay :D
+[16:21:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Hito_o_Aisuru> tal vez mi apá no vió
+[16:22:02] [Async Chat Thread - #3/INFO]: [Not Secure] <mathias6222> I hope
+[16:22:12] [Async Chat Thread - #2/INFO]: [Not Secure] <mathias6222> I hope in christ :fire:
+[16:22:21] [Async Chat Thread - #3/INFO]: [Not Secure] <Hito_o_Aisuru> God forgave us
+[16:25:17] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> pollo
+[16:25:41] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> a mis papás se les ocurrieron ir al río a almorzar
+[16:25:48] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> clásico
+[16:25:55] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> classic
+[16:26:03] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> entonces ahorita me salgo, mi amor :3
+[16:26:06] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> okay :3
+[16:26:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> buen probecho, cariño! !:D
+[16:26:20] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> probecho
+[16:26:22] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> xD
+[16:26:25] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> jueperra
+[16:26:27] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> pinche vb
+[16:26:28] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> gracias amor :3
+[16:26:30] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> zxcvbnm
+[16:26:31] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> bb
+[16:26:35] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> ñam :3
+[16:26:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> VB
+[16:26:45] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> están pegaditas en el teclado 3:
+[16:26:51] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> ñam :3
+[16:27:32] [Async Chat Thread - #4/INFO]: [Not Secure] <mathias6222> mi pollito por este trabajo me puede pedir cualquier cosa de trueque :p (menos bailar cosas que no sean simples alv)
+[16:27:42] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> ee
+[16:27:44] [Async Chat Thread - #4/INFO]: [Not Secure] <Hito_o_Aisuru> idk
+[16:27:50] [Async Chat Thread - #5/INFO]: [Not Secure] <Hito_o_Aisuru> por ahora nada, amor :3
+[16:27:52] [Async Chat Thread - #6/INFO]: [Not Secure] <Hito_o_Aisuru> lo pensaré
+[16:27:57] [Async Chat Thread - #5/INFO]: [Not Secure] <mathias6222> bueno, mi amor :3
+[16:28:04] [Async Chat Thread - #6/INFO]: [Not Secure] <mathias6222> igual ya te lo mereces :D
+[16:30:16] [Async Chat Thread - #7/INFO]: [Not Secure] <mathias6222> de paso, que te vaya bien en Tauramena, mi amor :3
+[16:30:21] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> disfrute el viaje :D
+[16:30:23] [Async Chat Thread - #7/INFO]: [Not Secure] <Hito_o_Aisuru> gracias, cariño :D
+[16:30:30] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> de qué color debería ponerme las ligar, amor? :3
+[16:30:40] [Async Chat Thread - #7/INFO]: [Not Secure] <mathias6222> rojitos :D
+[16:30:46] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> okayy :D
+[16:31:08] [Async Chat Thread - #7/INFO]: [Not Secure] <mathias6222> bais :3
+[16:31:13] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> bais, amor!! :D
+[16:31:16] [Async Chat Thread - #7/INFO]: [Not Secure] <Hito_o_Aisuru> buen provecho, cariño :3
+[16:31:21] [Async Chat Thread - #8/INFO]: [Not Secure] <mathias6222> te amo mucho, Carol :3
+[16:31:24] [Async Chat Thread - #7/INFO]: [Not Secure] <mathias6222> gracias :D
+[16:31:29] [Server thread/INFO]: mathias6222 lost connection: Disconnected
+[16:31:29] [Server thread/INFO]: mathias6222 left the game
+[16:31:30] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> yo también te amo mucho, mi cielito :3
+[16:31:51] [Server thread/INFO]: You whisper to Hito_o_Aisuru: yay :D
+[16:31:55] [Async Chat Thread - #7/INFO]: [Not Secure] <Hito_o_Aisuru> :0
+[16:32:14] [Server thread/INFO]: You whisper to Hito_o_Aisuru: voy a dejar funcionando el server para que mi pollito siga :3
+[16:32:19] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> ntpp amor
+[16:32:21] [Async Chat Thread - #7/INFO]: [Not Secure] <Hito_o_Aisuru> si quieres me salgo
+[16:32:25] [Async Chat Thread - #8/INFO]: [Not Secure] <Hito_o_Aisuru> ando escuchando un caso policial
+[16:32:30] [Server thread/INFO]: You whisper to Hito_o_Aisuru: quiero acabar eso hoy entonces ajá
+[16:32:35] [Async Chat Thread - #7/INFO]: [Not Secure] <Hito_o_Aisuru> waw
+[16:32:39] [Server thread/INFO]: You whisper to Hito_o_Aisuru: xD
+[16:37:23] [Server thread/INFO]: You whisper to Hito_o_Aisuru: tas?
+[16:37:25] [Async Chat Thread - #9/INFO]: [Not Secure] <Hito_o_Aisuru> sí
+[16:37:32] [Server thread/INFO]: You whisper to Hito_o_Aisuru: waw :o
+[16:38:47] [Server thread/INFO]: You whisper to Hito_o_Aisuru: miaw
+[16:38:57] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> nyann
+[16:39:02] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> te amo mucho, mi cielo :3
+[16:39:19] [Server thread/INFO]: You whisper to Hito_o_Aisuru: yo también te amo mucho, mi amor :3
+[16:39:27] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> yayy :D
+[16:39:36] [Server thread/INFO]: You whisper to Hito_o_Aisuru: mi pollito todo cariñoso c:
+[16:39:47] [Server thread/INFO]: You whisper to Hito_o_Aisuru: pollito feli' :D
+[16:39:53] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> ñamm :3
+[16:40:24] [Server thread/INFO]: You whisper to Hito_o_Aisuru: creo que el server próximamente estará en mi pc, mi amor
+[16:40:28] [Async Chat Thread - #12/INFO]: [Not Secure] <Hito_o_Aisuru> waw
+[16:40:40] [Server thread/INFO]: You whisper to Hito_o_Aisuru: tenerlo en github es re aburridor alv
+[16:40:43] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> iwal si me saca, ya he avanzado un poquito :3
+[16:40:57] [Server thread/INFO]: You whisper to Hito_o_Aisuru: :o
+[16:41:26] [Server thread/INFO]: You whisper to Hito_o_Aisuru: pollito chambiador :3
+[16:42:21] [Server thread/INFO]: You whisper to Hito_o_Aisuru: pollo pollo
+[16:42:25] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> sí? :3
+[16:42:41] [Server thread/INFO]: You whisper to Hito_o_Aisuru: pa cuándo mi fondito de pantalla de pollo?
+[16:42:56] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> mm
+[16:43:00] [Async Chat Thread - #13/INFO]: [Not Secure] <Hito_o_Aisuru> no sé
+[16:43:20] [Server thread/INFO]: You whisper to Hito_o_Aisuru: ahora sí, afk
+[16:43:25] [Server thread/INFO]: You whisper to Hito_o_Aisuru: bais :3
+[16:43:26] [Async Chat Thread - #13/INFO]: [Not Secure] <Hito_o_Aisuru> okayy :3
+[16:43:27] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> ily :3
+[16:43:31] [Async Chat Thread - #13/INFO]: [Not Secure] <Hito_o_Aisuru> te amo muuuucho :3
+[16:43:32] [Async Chat Thread - #11/INFO]: [Not Secure] <Hito_o_Aisuru> mwah
+[16:43:40] [Server thread/INFO]: You whisper to Hito_o_Aisuru: ñam
+[17:00:15] [Server thread/INFO]: Hito_o_Aisuru lost connection: Disconnected
+[17:00:15] [Server thread/INFO]: Hito_o_Aisuru left the game
